@@ -1,0 +1,207 @@
+
+# ==========================================
+# 1. ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+token.json
+secrets/
+secrets.json
+config/secrets.*
+
+# ==========================================
+# 2. PYTHON VIRTUAL ENVIRONMENTS
+# ==========================================
+
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# ==========================================
+# 3. PYTHON CACHE & COMPILED FILES
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# ==========================================
+# 4. PYTHON PACKAGING
+# ==========================================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+
+# ==========================================
+# 5. UV / PYTHON PACKAGE MANAGERS
+# ==========================================
+
+# Keep uv.lock tracked for reproducible installs.
+# Keep pyproject.toml tracked.
+
+# ==========================================
+# 6. JUPYTER & NOTEBOOKS
+# ==========================================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ==========================================
+# 7. IDE & EDITOR FILES
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 8. DOWNLOADED AI MODELS
+# ==========================================
+
+models/
+model/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.bin
+*.ckpt
+
+# Hugging Face local cache
+.cache/
+huggingface_cache/
+
+# ==========================================
+# 9. CHROMADB & VECTOR DATABASE
+# ==========================================
+
+storage_data/chroma/
+storage_data/chroma_db/
+chroma/
+chroma_db/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+
+# ==========================================
+# 10. GENERATED VIDEO FRAMES
+# ==========================================
+
+storage_data/frames/
+frames/
+extracted_frames/
+keyframes/
+
+# ==========================================
+# 11. TEMPORARY AUDIO FILES
+# ==========================================
+
+storage_data/temp/
+temp/
+tmp/
+audio_temp/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# ==========================================
+# 12. VIDEO FILES
+# ==========================================
+
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.mpeg
+*.mpg
+*.m4v
+
+# ==========================================
+# 13. GENERATED OCR / VIDEO METADATA
+# ==========================================
+
+storage_data/ocr/
+storage_data/metadata/
+storage_data/processed/
+*.jsonl
+*.parquet
+
+# ==========================================
+# 14. LOGS
+# ==========================================
+
+logs/
+*.log
+log/
+
+# ==========================================
+# 15. TEST & COVERAGE OUTPUTS
+# ==========================================
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+
+# ==========================================
+# 16. TYPE CHECKING & LINTING
+# ==========================================
+
+.mypy_cache/
+.dmypy.json
+.pyre/
+.ruff_cache/
+.pytype/
+
+# ==========================================
+# 17. OS GENERATED FILES
+# ==========================================
+
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# ==========================================
+# 18. LOCAL FLASHRANK CACHE
+# ==========================================
+
+storage_data/flashrank/
+
+# ==========================================
+# 19. LOCAL EXPERIMENTS & OUTPUTS
+# ==========================================
+
+experiments/
+outputs/
+results/
+artifacts/
